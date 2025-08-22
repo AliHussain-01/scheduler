@@ -1,7 +1,7 @@
 # CS619 - Lecture Scheduler Project
 
 <p align="center">
-  <img src="vu_logo.png" alt="VU Logo" width="150" />
+  <img src="VU_Logo.png" alt="VU Logo" width="150" />
 </p>
 
 

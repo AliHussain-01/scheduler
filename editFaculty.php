@@ -136,6 +136,6 @@ while ($row = $tsResult->fetch_assoc()) $timeSlots[] = $row;
         <button type="submit" name="addPref">Add Preference</button>
     </form>
 
-    <p><a href="index.php">Back to Dashboard</a></p>
+    <p><a href="faculty.php">Back to Manage Faculty</a></p>
 </body>
 </html>

@@ -1,10 +1,11 @@
 /* General Page Styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    padding: 20px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f0f2f5;
     margin: 0;
-}
+    padding: 20px;
+    color: #212529;
+    }
 
 h1, h2 {
     text-align: center;
@@ -13,22 +14,26 @@ h1, h2 {
 }
 
 /* Navigation */
-nav {
-    text-align: center;
-    margin-bottom: 20px;
-}
+	nav {
+            text-align: center;
+            margin-bottom: 25px;
+        }
 
-nav a {
-    margin-right: 15px;
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    transition: color 0.3s;
-}
+        nav a {
+            display: inline-block;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #495057;
+            font-weight: 600;
+            padding: 6px 12px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
 
-nav a:hover {
-    color: #007BFF;
-}
+        nav a:hover {
+            background: #007bff;
+            color: #fff;
+        }
 
 /* Section styling */
 section {

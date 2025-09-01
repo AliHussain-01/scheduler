@@ -19,7 +19,7 @@ $course = $result->fetch_assoc();
 // Handle form submission
 if(isset($_POST['updateCourse'])){
     editCourse($courseCode, $_POST);
-    header("Location: index.php");
+    header("Location: courses.php");
     exit;
 }
 ?>
@@ -39,6 +39,6 @@ if(isset($_POST['updateCourse'])){
         Multimedia (1/0): <input type="number" name="multimedia" min="0" max="1" value="<?= $course['MultimediaReq'] ?>"><br>
         <button type="submit" name="updateCourse">Update</button>
     </form>
-    <p><a href="index.php">Back to Dashboard</a></p>
+    <p><a href="courses.php">Back to Manage Course</a></p>
 </body>
 </html>

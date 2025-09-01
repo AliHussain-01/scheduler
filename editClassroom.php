@@ -19,7 +19,7 @@ $classroom = $result->fetch_assoc();
 // Handle form submission
 if(isset($_POST['updateClassroom'])){
     editClassroom($classroomID, $_POST);
-    header("Location: index.php");
+    header("Location: classrooms.php");
     exit;
 }
 ?>
@@ -39,6 +39,6 @@ if(isset($_POST['updateClassroom'])){
         Multimedia (1/0): <input type="number" name="multimedia" min="0" max="1" value="<?= $classroom['MultimediaAvail'] ?>"><br>
         <button type="submit" name="updateClassroom">Update</button>
     </form>
-    <p><a href="index.php">Back to Dashboard</a></p>
+    <p><a href="classrooms.php">Back to Manage Classrooms</a></p>
 </body>
 </html>

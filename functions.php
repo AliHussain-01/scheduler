@@ -247,5 +247,21 @@ function getSchedule() {
     return $result ? $result->fetch_all(MYSQLI_ASSOC) : [];
 }
 
+if(isset($_POST['autoSchedule'])){
+    $conn->query("UPDATE classrooms SET AvailableSlots='TS1,TS2,TS3,TS4,TS5,TS6'");
+    $conn->query("TRUNCATE TABLE schedule");
+    generateSchedule($conn);
+    echo "<p style='color:green; text-align:center;'>Schedule generated successfully!</p>";
+    echo "<script>window.location.href='schedule.php';</script>";
+    exit;
+}
+
+if(isset($_POST['resetSchedule'])){
+    $conn->query("UPDATE classrooms SET AvailableSlots='TS1,TS2,TS3,TS4,TS5,TS6'");
+    $conn->query("TRUNCATE TABLE schedule");
+    echo "<p style='color:red; text-align:center;'>Schedule has been reset to default (empty).</p>";
+    echo "<script>window.location.href='schedule.php';</script>";
+    exit;
+}
 
 ?>

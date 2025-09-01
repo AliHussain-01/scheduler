@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 22, 2025 at 07:12 AM
+-- Generation Time: Sep 01, 2025 at 12:41 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -71,7 +71,7 @@ INSERT INTO `courses` (`CourseCode`, `CourseTitle`, `Enrollment`, `MultimediaReq
 ('CS302', 'Digital Logic Design', 48, 0, NULL),
 ('CS304', 'Object Oriented Programming', 65, 1, NULL),
 ('CS401', 'Computer Architecture and Assembly Language Programming', 70, 1, NULL),
-('CS601', 'Data Communication', 58, 0, NULL),
+('CS601', 'Data Communication', 58, 1, NULL),
 ('CS604', 'Operating Systems', 75, 0, NULL),
 ('CS606', 'Compiler Construction', 66, 0, NULL),
 ('CS610', 'Computer Networks', 51, 0, NULL),
@@ -394,7 +394,7 @@ ALTER TABLE `timeslots`
 -- AUTO_INCREMENT for table `preferences`
 --
 ALTER TABLE `preferences`
-  MODIFY `PrefID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=203;
+  MODIFY `PrefID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=281;
 
 --
 -- AUTO_INCREMENT for table `schedule`

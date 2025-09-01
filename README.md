@@ -1,4 +1,4 @@
-# 📚 CS619 - Lecture Scheduler Project
+# CS619 - Lecture Scheduler Project
 
 <p align="center">
   <img src="assets/VU_Logo.png" alt="VU Logo" width="180" />
@@ -16,7 +16,7 @@ This project eliminates the manual effort of timetable management and ensures **
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### 1. 👨 Faculty Management
 
@@ -81,7 +81,7 @@ This project eliminates the manual effort of timetable management and ensures **
 ### Dashboard
 
 <p align="center">
-  <img src="assets/screenshots/dashboard.png" alt="Dashboard Screenshot" width="700"/>
+  <img src="assets/screenshots/dashboard.PNG" alt="Dashboard Screenshot" width="700"/>
 </p>
 
 ---
@@ -92,8 +92,8 @@ This project eliminates the manual effort of timetable management and ensures **
 * Manage departments and designations (Professor, Associate Professor, etc.).
 
 <p align="center">
-  <img src="assets/screenshots/faculty1.png" alt="Manage Faculty Screenshot 1" width="500"/>
-  <img src="assets/screenshots/faculty2.png" alt="Manage Faculty Screenshot 2" width="500"/>
+  <img src="assets/screenshots/faculty1.PNG" alt="Manage Faculty Screenshot 1" width="500"/>
+  <img src="assets/screenshots/faculty2.PNG" alt="Manage Faculty Screenshot 2" width="500"/>
 </p>
 
 ---
@@ -104,7 +104,7 @@ This project eliminates the manual effort of timetable management and ensures **
 * Edit or delete existing courses.
 
 <p align="center">
-  <img src="assets/screenshots/courses.png" alt="Manage Courses Screenshot" width="600"/>
+  <img src="assets/screenshots/courses.PNG" alt="Manage Courses Screenshot" width="600"/>
 </p>
 
 ---
@@ -115,7 +115,7 @@ This project eliminates the manual effort of timetable management and ensures **
 * Edit or delete existing Classroom.
 
 <p align="center">
-  <img src="assets/screenshots/classrooms.png" alt="Manage Classroom Screenshot" width="600"/>
+  <img src="assets/screenshots/classrooms.PNG" alt="Manage Classroom Screenshot" width="600"/>
 </p>
 
 ---
@@ -123,9 +123,10 @@ This project eliminates the manual effort of timetable management and ensures **
 ### Schedule Management
 
 <p align="center">
-  <img src="assets/screenshots/schedule.png" alt="Schedule Screenshot" width="700"/>
+  <img src="assets/screenshots/schedule.PNG" alt="Schedule Screenshot" width="700"/>
 </p>
 
+---
 
 ## ❗ Setup Instructions
 

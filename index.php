@@ -92,6 +92,13 @@
             <a href="schedule.php">Manage Schedule</a>
             <p>Generate and review the weekly lecture schedule with details.</p>
         </div>
+		<div class="card">
+            <div class="icon"><i class="fas fa-calendar-alt"></i></div>
+            <a href="README.html">About Project</a>
+            <p>A web-based system to manage faculty, courses, classrooms, and lecture schedules efficiently.</p>
+        </div>
+		
+		
     </div>
 </body>
 </html>

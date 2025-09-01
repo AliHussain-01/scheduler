@@ -21,28 +21,6 @@ $courseList = getCourses();
     <title>Manage Courses</title>
     <link rel="stylesheet" href="assets/style.css?v=<?= filemtime('assets/style.css') ?>">
     <style>
-        nav {
-            text-align: center;
-            margin-bottom: 25px;
-        }
-
-        nav a {
-            display: inline-block;
-            margin: 0 10px;
-            text-decoration: none;
-            color: #495057;
-            font-weight: 600;
-            padding: 6px 12px;
-            border-radius: 4px;
-            transition: all 0.3s ease;
-        }
-
-        nav a:hover {
-            background: #007bff;
-            color: #fff;
-        }
-
-
         table {
             width: 100%;
             border-collapse: collapse;
